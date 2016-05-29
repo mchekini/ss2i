@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 5.0//EN" "http://www.hibernate.org/dtd/hibernate-mapping-5.0.dtd">
+<hibernate-mapping>
+  <class  name="com.mehdi.beans.Langage" table="langage">
+      <id name="id_langage" type="int" column="id_langage">
+          <generator class="native"/>
+      </id>
+      <property name="nom_langage" column="intitule_langage" type="string"/>
+  </class>
+</hibernate-mapping>
+
+
+
+

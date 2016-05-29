@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 5.0//EN" "http://www.hibernate.org/dtd/hibernate-mapping-5.0.dtd">
+<hibernate-mapping>
+  <class  name="com.mehdi.beans.Societe" table="Societe">
+      <id name="id_societe" type="int" column="id_societe">
+          <generator class="native"/>
+      </id>
+      <property name="nom_societe" column="nom_societe" type="string"/>
+      <property name="lieu_societe" column="lieu_societe" type="string"/>
+  </class>
+</hibernate-mapping>
+
+
+
+
